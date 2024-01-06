@@ -12,25 +12,25 @@ pipeline {
              }
         }
 
-        stage('unit tests') {
+        stage('Unit tests') {
             steps {
                 echo "unit tests"
              }
         }
 
-        stage('code analasys') {
+        stage('Code Analaysis') {
             steps {
                 echo "code analasys"
              }
         }
 
-        stage('security scans') {
+        stage('Security Scans') {
             steps {
                 echo "security scans"
              }
         }
 
-        stage('publish artifacts') {
+        stage('Publish a Artifact') {
             steps {
                 echo "publish artifacts"
              }
